@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Digital Business Card</title>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="Logo" class="logo" />
+    </header>
+    <div class="container">
+      <div class="left">
+        <h1 class="title">We're</h1>
+        <h1 class="coming-soon title">
+          coming<br />
+          soon
+        </h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form action="#">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+          />
+          <img
+            src="./images/icon-error.svg"
+            class="error-icon"
+            alt="Error icon"
+          />
+          <button type="submit" id="submit">
+            <img src="./images/icon-arrow.svg" alt="Submit" />
+          </button>
+          <p class="error-text">Please provid a valid email</p>
+        </form>
+      </div>
+      <div class="right"></div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">@julianapereira.dev</a>.
+      </p>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
